@@ -6,7 +6,7 @@ This file is a quick tour of the Cuis User Interface (UI).
 
 Smalltalk defined Object Oriented.  All computation is done by objects sending messages to themselves and each other.
 
-Cuis shares with other Smalltalk implementations the characteristic that all objects are live.  All objects can be inspected and changed while they are executing.
+Cuis shares with other Smalltalk implementations the characteristic that all objects are *alive*.  All objects can be inspected and changed while they are executing.
 
 There are many great tools waiting to be used.  This tour gives an introduction to a few of the most important ones.
 
