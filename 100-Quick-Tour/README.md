@@ -110,7 +110,7 @@ World Menu -> Open.. -> Installed Packages shows the packages loaded into your C
 
 You can create your own packages and add/remove requirements so that any packages your package requires will be loaded when you need them.   Note the Terse Guide topic 'Features'.
 
-![MorphMenu-BoxedMorph](UITour/Cuis10.png)
+![MorphMenu-ColoredBoxMorph](UITour/Cuis10.png)
 
 Smalltalks which descend from Squeak, like Cuis, have a system in which all graphic entities are objects called Morphs.
 
@@ -118,11 +118,11 @@ You can get morphs directly via World Menu -> New Morph...
 
 This brings up a Morph Menu.
 
-In this case, I selected a Basic Morph called a BoxedMorph.
+In this case, I selected a Basic Morph called a ColoredBoxMorph.
 
-I then cmd-clicked on the BoxedMorph to bring up a "halo" of "construction handles" (small circles around the Morph) and used the one in the lower right (Change Size) to make it bigger.
+I then cmd-clicked on the ColoredBoxMorph to bring up a "halo" of "construction handles" (small circles around the Morph) and used the one in the lower right (Change Size) to make it bigger.
 
-![BoxedMorph-Menu](UITour/Cuis11.png)
+![ColoredBoxMorph-Menu](UITour/Cuis11.png)
 
 Clicking on the blue halo button gives a menu for the morph.
 
@@ -132,17 +132,17 @@ Selecting debug -> inspect morph gives an Object Inspector tool which allows one
 
 One can click on a Morph's "instance variables" to see their values, and in turn "inspect" those values.
 
-![BoxedMorph-Color](UITour/Cuis13.png)
+![ColoredBoxMorph-Color](UITour/Cuis13.png)
 
 You can also write code in the lower pane in which "self" is bound to the object clicked on in the upper left pane.  So one can do things like changing the setting of the "color" instance variable.
 
-![BoxedMorph-Color](UITour/Cuis14.png)
+![ColoredBoxMorph-Color](UITour/Cuis14.png)
 
-![BoxedMorph-Code](UITour/Cuis15.png)
+![ColoredBoxMorph-Code](UITour/Cuis15.png)
 Another useful operation in a Morph's Menu is to look at its Code.
 
-![BoxedMorph-Browsing](UITour/Cuis16.png)
-The upper-left pane of the Browser shows the Class inheritance hierarchy for a BoxedMorph.  Each "child" or specialization of a Class has code which essentially says "I am like my parent but for these changes/extensions", which it then defines.
+![ColoredBoxMorph-Browsing](UITour/Cuis16.png)
+The upper-left pane of the Browser shows the Class inheritance hierarchy for a ColoredBoxMorph.  Each "child" or specialization of a Class has code which essentially says "I am like my parent but for these changes/extensions", which it then defines.
 
 ![Browsers are Morphs too](UITour/Cuis17.png)
 
@@ -152,10 +152,10 @@ This is also true of the UI tools.  You can click-select graphical elements (mid
 
 ![Send Morph to back](UITour/Cuis18.png)
 
-In this case, I get the Morph Menu of the browser and "send it to the back" so that I can again see the BoxedMorph.
+In this case, I get the Morph Menu of the browser and "send it to the back" so that I can again see the ColoredBoxMorph.
 
 ![Color method](UITour/Cuis19.png)
-Looking again at the BoxedMorph's code, I see how the `color:` method is implemented.
+Looking again at the ColoredBoxMorph's code, I see how the `color:` method is implemented.
 
 ![Breaking into the Debugger](UITour/Cuis20.png)
 
