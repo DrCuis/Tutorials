@@ -14,25 +14,25 @@ There are many great tools waiting to be used.  This tour gives an introduction 
 
 Perhaps the best way to think of Cuis is as a place to explore.
 
-You can open a Cuis image using a portable virtual machine and see the same windows in the same positions pixel-per-pixel on Linux, Macintosh, Windows or any operating system where the VM runs.
+You can open a Cuis image using a portable virtual machine and see the same windows in the same positions pixel-per-pixel on Linux, Macintosh, Windows or any other operating system where the VM runs.
 
-You can start an image, do things with it and throw it away or save the image and its  record of the changes to be opened another time and take up right where you left off.
+You can start an image, do things with it and throw it away, or save the image and its record of the changes to be opened another time, then take up right where you left off.
 
 ![WorldMenu](UITour/Cuis2.png)
 
-The job of a user interface is to answer the questions: "Where am I" and "What can I do here?".
+The job of a user interface is to answer the questions: “Where am I?” and “What can I do here?”.
 
-With a deep feature set, there is a fundamental conflict between showing everything you can interact with and reducing the "clutter" so that one can concentrate on what one wants to do.
+With a deep feature set, there is a fundamental conflict between showing everything you can interact with and reducing the “clutter” so that one can concentrate on what one wants to do.
 
 The basic solution to this problem is to hide information until it is needed and present it in context.
 
-The initial user interface screen is pretty sparse.  Cuis Smalltalk is an 'Interactive Development Environmant' just waiting for you.
+The initial user interface screen is pretty sparse.  Cuis Smalltalk is also an “Interactive Development Environmant” just waiting for you.
 
 The entry point of this interface is the World Menu which you can get by clicking on the desktop.
 
 If you right-click or cmd-click on the desktop, you will see a World Menu.
 
-The command button "cmd-" may be a control ("ctrl") key [Linux], an Apple key [MacOS], or some other command key based on your keyboard and operating system.
+The command button “cmd-” may be a control (“ctrl”) key [Linux], an Apple key [MacOS], or some other command key depending on your keyboard and operating system.
 
 A three button mouse has:
 -  button 1 = left mouse button = select
@@ -55,7 +55,7 @@ Also available from the Help Menu is the Terse Guide to Cuis.
 
 The Terse Guide has many topics and shows code usages.  
 
-You can select or change code in the Terse Guide pages and "DoIt" (cmd-d) or "PrintIt" (cmd-p) to see results.  Every time you re-visit a topic, the page is created again, so feel free to play.
+You can select or change code in the Terse Guide pages and “DoIt” (cmd-d) or “PrintIt” (cmd-p) to see results.  Every time you re-visit a topic, the page is created again, so feel free to play.
 
 ![Code Editor Shortcuts](UITour/Cuis5.png)
 
@@ -93,13 +93,13 @@ Shown is the Packages/Features/Graphics-Files-Additional.pck.st -- a packaged (.
 
 The File List is context sensitive.  Viewing a text file or an image file or a file with Smalltalk Package code gives you different option buttons.
 
-You can also "right-click" or "double-click" to get a context sensitive menu in many browser panes.  This works in most browsers.
+You can also “right-click” or “double-click” to get a context sensitive menu in many browser panes.  This works in most browsers.
 
-In the picture above, a Package File has been selected.  Cuis Packages implement system Features.  The file shown implements a Feature named 'Graphics-Files-Additional' and requires the Feature 'Compression" be present.  Packages specify any additional Features they require to be useful.
+In the picture above, a Package File has been selected.  Cuis Packages implement system Features.  The file shown implements a Feature named “Graphics-Files-Additional” which in turn requires the Feature “Compression” to be present.  Packages declare any additional Features on which they depend.
 
-Clicking on the "installPackage" button has the same effect as running the code in the previous Workspace picture.
+Clicking on the “installPackage” button has the same effect as running the code in the previous Workspace picture.
 ````Smalltalk
-  Feature require: #'Graphics-Files-Additional'.
+  Feature require: 'Graphics-Files-Additional'.
 ````
 
 ![InstalledPackages](UITour/Cuis9.png)
@@ -120,7 +120,7 @@ This brings up a Morph Menu.
 
 In this case, I selected a Basic Morph called a ColoredBoxMorph.
 
-I then cmd-clicked on the ColoredBoxMorph to bring up a "halo" of "construction handles" (small circles around the Morph) and used the one in the lower right (Change Size) to make it bigger.
+I then cmd-clicked on the ColoredBoxMorph to bring up a “halo” of “construction handles” (small circles around the Morph) and used the one in the lower right (Change Size) to make it bigger.
 
 ![ColoredBoxMorph-Menu](UITour/Cuis11.png)
 
@@ -128,13 +128,13 @@ Clicking on the blue halo button gives a menu for the morph.
 
 ![ObjectInspector](UITour/Cuis12.png)
 
-Selecting debug -> inspect morph gives an Object Inspector tool which allows one to see the inner structure of the morph, its "state".
+Selecting debug -> inspect morph gives an Object Inspector tool which allows one to see the inner structure of the morph, its “state”.
 
-One can click on a Morph's "instance variables" to see their values, and in turn "inspect" those values.
+One can click on a Morph's “instance variables” to see their values, and in turn “inspect” those values.
 
 ![ColoredBoxMorph-Color](UITour/Cuis13.png)
 
-You can also write code in the lower pane in which "self" is bound to the object clicked on in the upper left pane.  So one can do things like changing the setting of the "color" instance variable.
+You can also write code in the lower pane in which “self” is bound to the object clicked on in the upper left pane.  So one can do things like changing the setting of the “color” instance variable.
 
 ![ColoredBoxMorph-Color](UITour/Cuis14.png)
 
@@ -142,7 +142,7 @@ You can also write code in the lower pane in which "self" is bound to the object
 Another useful operation in a Morph's Menu is to look at its Code.
 
 ![ColoredBoxMorph-Browsing](UITour/Cuis16.png)
-The upper-left pane of the Browser shows the Class inheritance hierarchy for a ColoredBoxMorph.  Each "child" or specialization of a Class has code which essentially says "I am like my parent but for these changes/extensions", which it then defines.
+The upper-left pane of the Browser shows the Class inheritance hierarchy for a ColoredBoxMorph.  Each “child” or specialization of a Class has code which essentially says “I am like my parent but for these changes/extensions”, which it then defines.
 
 ![Browsers are Morphs too](UITour/Cuis17.png)
 
@@ -152,7 +152,7 @@ This is also true of the UI tools.  You can click-select graphical elements (mid
 
 ![Send Morph to back](UITour/Cuis18.png)
 
-In this case, I get the Morph Menu of the browser and "send it to the back" so that I can again see the ColoredBoxMorph.
+In this case, I get the Morph Menu of the browser and “send it to the back” so that I can again see the ColoredBoxMorph.
 
 ![Color method](UITour/Cuis19.png)
 Looking again at the ColoredBoxMorph's code, I see how the `color:` method is implemented.
