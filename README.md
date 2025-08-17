@@ -1,8 +1,8 @@
 # Tutorials
 
-* [Quick Tour](/100-Quick-Tour) A quick warm-up to learn a bit the
-  Cuis-Smalltalk system environment.
-* [The Cuis Book](https://drcuis.github.io/TheCuisBook), good first
+* [Quick Tour](/100-Quick-Tour) A quick warm-up to learn a bit about
+  the Cuis-Smalltalk system environment.
+* [The Cuis Book](https://drcuis.github.io/TheCuisBook) A good first
   reading when discovering Cuis and learning programming, particularly
   the chapters 1 to 5.
 * [The Morph Book vol. I (Design Graphic User
