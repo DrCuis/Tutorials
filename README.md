@@ -7,8 +7,8 @@
   the chapters 1 to 5.
 * [The Morph Book vol. I (Design Graphic User
   Interface)](https://drcuis.github.io/DesignGUI). This book guides
-  the reader to learn how to build GUI application, including several
+  the reader in learning how to build a GUI application, including several
   design iterations of a memory game.
 * [The Morph Book vol. II (The Art of
   Morph)](https://drcuis.github.io/TheArtOfMorph). This booklet guides
-  the reader to design new morph from scratch.
+  the reader to design a new morph from scratch.
