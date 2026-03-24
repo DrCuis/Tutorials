@@ -11,4 +11,4 @@
   design iterations of a memory game.
 * [The Morph Book vol. II (The Art of
   Morph)](https://drcuis.github.io/TheArtOfMorph). This booklet guides
-  the reader to design a new morph from scratch.
+  the reader in designing a new morph from scratch.
